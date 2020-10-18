@@ -80,6 +80,7 @@ h3{
     padding: 0%;
     align-items: stretch;
     background-color: magenta;
+    height: 300px;  
 }
 
 /* 
@@ -95,17 +96,28 @@ h3{
     padding-left: 18%;
     padding-bottom: 9%;
     background-color: #DAEAE6;
-    align-self: flex-end;
-    
     /* padding: 11% 2% 11% 14%; */
     }
 
 #middle{
 background-color: #EFF4F6;
 flex:1.4 1 26%;
+position: relative;
+top: -40%;
+height: 140%
 }
 
 #right{
 background-color: #BAD0D6;
 flex: 2 1 37%;
+position: relative;
+top: -23%;
+height: 123%;
+}
+
+.extra{
+    height: 600px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: flex-end;
 }
